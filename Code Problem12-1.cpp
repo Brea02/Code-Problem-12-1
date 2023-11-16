@@ -61,15 +61,6 @@ bool readFromFile(string filename) {
 		cout << "Characters: " << countCharacter << endl;
 	}
 
-	/*
-	//if here then read in data until we're done
-	while (true) {
-		//inFile >> movieTitle >> year;
-		if (inFile.fail()) break; //when there no more data to read
-
-		//cout << movieTitle << ": " << year << endl;
-	}
-	*/
 	//close the file and return
 	inFile.close();
 	return true;
